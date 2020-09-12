@@ -1,0 +1,1 @@
+{"version":3,"sources":["general.scss"],"names":[],"mappings":"AAAA,I,CACE,c","file":"styles.min.css","sourcesContent":["body {\r\n  background: $red-500;\r\n}"]}
