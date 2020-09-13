@@ -1,0 +1,44 @@
+.intro {
+  margin-bottom: 30px;
+  background: #000 url('../../img/intro-bg.jpg') no-repeat center;
+  background-size: cover;
+
+  &__inner {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__text {
+    margin-bottom: 45px;
+    text-align: right;
+  }
+
+  &__countries {
+    font-size: 15px;
+    color: #fff;
+  }
+
+  &__title {
+    position: relative;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 110px;
+    line-height: 0.9;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+  }
+
+  &__title-amp {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-size: 170px;
+    line-height: 1;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.2);
+  }
+}

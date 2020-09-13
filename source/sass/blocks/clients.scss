@@ -1,0 +1,35 @@
+.clients {
+  display: flex;
+  margin-bottom: 60px;
+
+  &__logos {
+    width: 60%;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    li {
+      margin-right: 40px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__reviews {
+    width: 40%;
+  }
+
+  &-love {
+    display: inline-block;
+    margin-left: 40px;
+    min-height: 47px;
+    padding-top: 5px;
+
+    background: url('../../img/heart.svg') no-repeat left 19px top;
+
+    font-size: 18px;
+    color: #464646;
+  }
+}

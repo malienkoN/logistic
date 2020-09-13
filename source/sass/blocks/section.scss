@@ -1,0 +1,21 @@
+.section {
+  padding: 60px 0;
+
+  &--map {
+    background: url('../../img/map.svg') no-repeat left 30px top 130px;
+  }
+
+  &__title {
+    margin-bottom: 40px;
+
+    font-size: 45px;
+    line-height: 1.2;
+    color: #2c2c2c;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+
+    span {
+      color: #0D53F2;
+    }
+  }
+}

@@ -1,3 +1,48 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'PT Sans', sans-serif;
+*/
+
 body {
-  background: $red-500;
+  margin: 0;
+
+  background-color: #fff;
+
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #585858;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
