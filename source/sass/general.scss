@@ -10,7 +10,7 @@ body {
 
   font-family: 'PT Sans', sans-serif;
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.4;
   color: #585858;
 }
 
@@ -45,4 +45,8 @@ ul, ol {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.text-center {
+  text-align: center;
 }

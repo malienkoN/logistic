@@ -2,6 +2,8 @@
   display: inline-block;
   vertical-align: middle;
   padding: 15px 45px;
+  position: relative;
+  overflow: hidden;
 
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
@@ -16,6 +18,31 @@
   text-decoration: none;
   cursor: pointer;
 
+  &:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+
+    background-color: #000000;
+    opacity: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity .1s linear;
+  }
+
+  span {
+    position: relative;
+    z-index: 2;
+  }
+
+  &:hover:before {
+    opacity: .15;
+  }
+
   &--orange {
     background-image: linear-gradient(to right, #FF903E, #FF2C2C);
   }
@@ -23,5 +50,9 @@
   &--block {
     display: block;
     width: 100%;
+  }
+
+  &--shadow {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
   }
 }

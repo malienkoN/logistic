@@ -1,0 +1,59 @@
+.mission {
+  padding: 60px 30px;
+  margin-bottom: 30px;
+  position: relative;
+  margin-top: -27px;
+
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, .16);
+
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+    width: 41.66666%;
+    height: 2px;
+
+    position: absolute;
+    bottom: 0;
+  }
+
+  &:before {
+    background-color: #004AF2;
+    right: 50%;
+  }
+
+  &:after {
+    background-color: #FC2C2B;
+    left: 50%;
+  }
+
+  &__title {
+    margin-bottom: 5px;
+
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #004AF2;
+  }
+
+  &__subtitle {
+    font-size: 21px;
+    font-weight: 400;
+    color: #585858;
+  }
+}
+
+.mission-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 90px;
+  line-height: 1;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, .05);
+}
