@@ -38,4 +38,29 @@
   &--email {
     background: url('../img/mail-icon.svg') no-repeat left 15px top 6px;
   }
+
+  &--dark {
+    color: #2c2c2c;
+    border-bottom-color: #E8E8E8;
+
+    &::placeholder {
+      color: #2c2c2c;
+    }
+
+    &:focus {
+      border-bottom-color: #000000;
+    }
+    
+    &.input--user {
+      background-image: url('../img/icon-user-black.svg');
+    }
+
+    &.input--phone {
+      background-image: url('../img/icon-phone-black.svg');
+    }
+
+    &.input--email {
+      background-image: url('../img/icon-mail-black.svg');
+    }
+  }
 }
