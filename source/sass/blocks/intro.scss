@@ -3,6 +3,16 @@
   background: #000 url('../img/intro-bg.jpg') no-repeat center;
   background-size: cover;
 
+  &--blog {
+    height: 350px;
+    background-image: url('../img/blog-bg.jpg');
+  }
+
+  &--text{
+    height: 350px;
+    background-image: url('../img/text-bg.jpg');
+  }
+
   &__inner {
     height: 600px;
     display: flex;

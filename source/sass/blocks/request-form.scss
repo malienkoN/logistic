@@ -11,12 +11,18 @@
     bottom: -30px;
   }
 
+  &--right {
+    margin-left: auto;
+  }
+
   &__header {
     padding: 20px 30px;
     background-color: #033FC9;
   }
 
   &__title {
+    margin-bottom: 5px;
+
     font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: 900;
