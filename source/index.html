@@ -15,15 +15,15 @@
 
 
     <!-- Header -->
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__inner">
 
                 <a href="index.html">
-                    <img src="img/logo.png" alt="CenterLogistic">
+                    <img class="img" src="img/logo.png" alt="CenterLogistic">
                 </a>
 
-                <nav class="nav">
+                <nav class="nav" id="nav">
                     <a class="nav__link  active" href="#">Services</a>
                     <a class="nav__link" href="#">Clients</a>
                     <a class="nav__link" href="#">Benefits</a>
@@ -32,13 +32,19 @@
                     <a class="nav__link" href="#">Contact Us</a>
                 </nav>
 
+                <button class="burger" type="button" id="navToggle">
+                    <span class="burger__line">1</span>
+                    <span class="burger__line">2</span>
+                    <span class="burger__line">3</span>
+                    <span class="burger__line">4</span>
+                </button>
             </div>
         </div>
     </header>
 
 
     <!-- Intro -->
-    <div class="intro">
+    <div class="intro" id="intro">
         <div class="container">
             <div class="intro__inner">
 
@@ -66,7 +72,7 @@
                                 <input class="input  input--email" type="email" placeholder="Your e-mail">
                             </div>
 
-                            <button class="btn  btn--block  btn--orange" type="submit">
+                            <button class="btn  btn--block  btn--orange" id="call-back" type="submit">
                                 <span>Call me back</span>
                             </button>
                         </form>
@@ -221,7 +227,7 @@
                 </div>
             </div><!-- /.clients -->
 
-            <button class="btn  btn--orange  btn--shadow" type="button">
+            <button class="btn  btn--orange  btn--shadow  become-client" type="button">
                 <span>Become a client</span>
             </button>
             <span class="clients-love">we love our clients</span>
@@ -363,7 +369,7 @@
                 </h4>
             </div>
             <div class="text-center">
-                <button class="btn  btn--orange  btn--shadow" type="button">
+                <button class="btn  btn--orange  btn--shadow  become-client" type="button">
                     <span>Become a client</span>
                 </button>
             </div>
@@ -520,5 +526,9 @@
 </div><!-- /.modal  -->
 
 
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.slim.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/thanksModal.js"></script>
+<script src="js/becomeClientModal.js"></script>
 </body>
 </html>

@@ -8,8 +8,10 @@
   right: 0;
   z-index: 1000;
 
+  transition: background-color .1s linear;
+
   &--dark {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .9);
   }
 
   &__inner {
